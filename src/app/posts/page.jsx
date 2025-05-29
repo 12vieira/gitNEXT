@@ -8,7 +8,7 @@ const PostPage = () => {
         {/* <div className='text-right text-amber-300 m-5' >
             <Link href="/" >Home</Link>
         </div> */}
-      <h1 className="text-center border border-purple-600 p-3 text-fuchsia-700 text-4x1 mt-10">Página de Posts</h1>
+      <h1 className="text-center border border-fuchsia-700 p-3 text-fuchsia-700 text-4x1 mt-10">Página de Posts</h1>
       <ul className='text-fuchsia-600 m-5' >
         {postsId.map((id)=>(
             <li key={id}>

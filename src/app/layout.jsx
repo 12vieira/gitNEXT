@@ -25,11 +25,12 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <nav className="bg-purple-800 ">
-          <ul className="flex text-amber-300 p-4">
+          <ul className="flex text-amber-300 p-4 justify-around">
             <li><Link className="ms-2" href="/">Home</Link></li>
             <li><Link className="ms-2" href="/sobre" >Sobre</Link></li>
             <li><Link className="ms-2" href="/posts" >Posts</Link></li>
-            <li><Link className="ms-2" href="/produtos/categorias/cachorro">Produtos</Link></li>
+            <li><Link className="ms-2" href="/produtos/categorias/diversos">Produtos</Link></li>
+            <li><Link className="ms-2" href="/perfil">Perfil</Link></li>
           </ul>
         </nav> 
 

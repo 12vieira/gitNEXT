@@ -10,7 +10,7 @@ export default function Home() {
           <Link className="ms-2" href="/posts" >Posts</Link>
           <Link className="ms-2" href="/produtos/categorias/cachorro">Produtos</Link>
         </div> */}
-        <h1 className="text-center border border-purple-600 p-3 text-fuchsia-700 text-4x1 mt-10">Inicio</h1>
+        <h1 className="text-center border border-fuchsia-700 p-3 text-fuchsia-700 text-4x1 mt-10">Inicio</h1>
       </main>
     </div>
   );

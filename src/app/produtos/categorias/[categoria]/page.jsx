@@ -3,7 +3,7 @@ import Link from 'next/link'
 const CategoryPage = () => {
   return (
     <div>
-      <h1 className="text-center border border-purple-600 p-3 text-fuchsia-700 text-4x1 mt-10">Conheça nossos produtos:</h1>
+      <h1 className="text-center border border-fuchsia-700 p-3 text-fuchsia-700 text-4x1 mt-10">Conheça nossos produtos:</h1>
       <div className='text-amber-300 text-2xl'>
         <ul>
           <li>
